@@ -1,0 +1,68 @@
+@CHARSET "ISO-8859-1";
+.wrapper .sideMenu{
+       position :fixed;
+       top : 0;
+       bottom : 0;
+       left : 0 ;
+       margin : 55px auto auto;
+       width : 200px;
+       transition: all cubic-bezier(0.18, 0.89, 0.32, 1.28) 0.5s;
+       transform : translateX(-100%);
+       z-index: 2000;
+       background-color: #00695c;
+      }
+      .contents{
+      margin-top : 30px;
+      width : 100%;
+      transition : all cubic-bezier(0.18, 0.89, 0.32, 1.28) 0.9s;
+      }
+       .wrapper .navbar-nav{
+         margin-top : 50px;
+      }
+  .active .sideMenu{
+        transform : translateX(0);
+     }
+     .flip { transform: rotate(-180deg);}
+      @media(min-width:992px){
+       .wrapper .sideMenu{
+           transform : translateX(0);
+        }
+        .contents{
+          margin-left : 220px;
+        }
+        .active .sideMenu{
+            width : 50px;
+          }
+          
+        .active .contents{
+            margin-left : 80px;
+          }
+        .active .nav-link .text{
+           display : none;
+        }
+       .active .nav-link .icon{
+        margin-right : 0px;
+       }
+       .active .nav-link{
+        text-align : center;
+       }
+      }
+      .nav-link{
+      display:block;
+      white-space : nowrap;
+      }
+      .nav-link .icon{
+       margin-right : 4px;
+       font-size : 30px;
+       vertical-align : middle;
+       height : 32px;
+       width : 32px;
+       display : inline-flex;
+       justify-content : center;
+       align-items : center;
+       color : black;
+      }
+      .nav-link .text{
+       font-size : 14px; 
+       color : #FFF;
+      }

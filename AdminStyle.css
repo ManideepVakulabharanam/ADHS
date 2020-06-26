@@ -1,0 +1,97 @@
+@CHARSET "ISO-8859-1";
+.wrapper .sideMenu{
+       position :fixed;
+       top : 0;
+       bottom : 0;
+       left : 0 ;
+       margin : 55px auto auto;
+       width : 200px;
+       transition: all ease;
+       transform : translateX(-100%);
+       z-index: 2000;
+       background-color : #00695c;
+      }
+      .contents{
+       margin-top : 30px;
+       width : 100%;
+       transition : all cubic-bezier(0.18, 0.89, 0.32, 1.28) 0.9s;
+      }
+      .maincontent{
+      margin-top : 30px;
+      margin-left : auto;
+      margin-right : auto;
+       width : 100%;
+       transition : all cubic-bezier(0.18, 0.89, 0.32, 1.28) 0.9s;
+      }
+        .wrapper .navbar-nav{
+         margin-top : 50px;
+      }
+  .active .sideMenu{
+        transform : translateX(0);
+     }
+     .flip { transform: rotate(-180deg);}
+      @media(min-width:992px){
+       .wrapper .sideMenu{
+           transform : translateX(0);
+        }
+         .contents{
+             margin-left : 200px;
+         }
+        .active .sideMenu{
+            width : 80px;
+          }
+          .active .contents{
+            margin-left : 80px;
+          }
+         .maincontent{
+         margin-left : 210px;
+        }
+         .active .maincontent{
+            margin-left : 80px;
+          }
+        .active .nav-link .text{
+           display : none;
+        }
+       .active .nav-link .icon{
+        margin-right : 0px;
+        margin-left : -40px;
+       }
+       .active .nav-link{
+        text-align : center;
+       }
+      }
+      .nav-link{
+      display:block;
+      white-space : nowrap;
+      margin-left : 40px;
+      }
+      .nav-link .icon{
+       margin-right : 4px;
+       font-size : 30px;
+       vertical-align : middle;
+       height : 32px;
+       width : 32px;
+       display : inline-flex;
+       justify-content : center;
+       align-items : center;
+       color : black;
+      }
+      .nav-link .text{
+       font-size : 14px; 
+       color : #FFF;
+      }   
+      .divide-side-elements{
+        margin:0 1rem 1rem;
+        border-top:1px solid #eaecf4;
+      }
+      .subtitle-side-elements{
+        color:rgba(255,255,255,.4);
+        text-align:center;
+        padding:0 1rem;
+        font-weight:800;
+        font-size:.65rem;
+      } 
+
+
+      
+      

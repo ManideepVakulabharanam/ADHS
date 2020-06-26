@@ -1,0 +1,27 @@
+@CHARSET "ISO-8859-1";
+.block{
+   font-family : Malgun Gothic;
+   background-color : #0CCE6B;
+   border:none;
+}
+.block .icon{
+	  font-size : 40px;
+}
+.blocks-pie{
+   position:unset;
+   height:15rem;
+   width:100%;
+}
+.charts{
+	padding-top : 20px;
+}
+.content-bg{
+background-color:#f9f9fd;
+}
+.disp{
+	padding : 10px;
+}
+.blocks-pie{
+	position:relative;height:15rem;width:100%;
+ height:calc(20rem - 43px)!important;	
+}

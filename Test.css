@@ -1,0 +1,138 @@
+@CHARSET "ISO-8859-1";
+
+body{min-height:200vh;
+background-color : brown;
+}
+.navbar{
+  transition:500ms ease;
+  background:transparent;
+}
+.navbarr .scrolled{
+  background:#000;
+}
+.carousel-caption{
+	padding-bottom : 300px;
+	font-family : poppins;
+}
+.carousel-caption h2{
+	font-size : 40px;
+	text-transform : uppercase;
+	font-weight : bold;
+}
+.navbar-brand{
+   font-size : 30px;
+  font-family : Microsoft Sans Serif;
+  font-weight : bold;
+}
+.navbar-nav .nav-item{
+	text-transform : uppercase;
+	font-size : 20px;
+	margin:5px 10px;
+}
+.navbar-nav .nav-item:hover{
+	font-size : 25px;
+}
+.carousel-item{
+	height:100vh;
+	min-height : 300px;
+	background:no-repeat center center scroll;
+	background-size : cover;
+}
+.carousel-caption p{
+    width : 50%;
+	margin:auto;
+	font-size : 20px;
+}
+.carousel-control-prev{
+	background-image:none;
+}
+.carousel-control-next{
+	background-image:none;
+}
+hr{
+	border-radius : 20px;
+	border-size : 2px;
+}
+
+section{
+	position: relative;
+	width : 100%;
+	height : 100vh;
+	margin-top : 10%;
+}
+
+section .Details .Det{
+	position : absolute;
+	margin-top : 15%;
+	
+}
+section .Details img{
+	width :100%;
+	height : 80vh;
+}
+.content{
+	position: relative;
+	width : 100%;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+}
+.con{
+	background:no-repeat center center scroll;
+	background-size : cover;
+	width : 100%;
+	height : 80vh;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+}
+#btnn{
+	width : 100%;
+	color: black;
+	font-size : 30px;
+	font-family : poppins;
+	background-color : #132A3E;
+	border : none;
+	border-radius : 25px;
+	color : #fff;
+	
+}
+.ourprinciples{
+	position: relative;
+	width : 100%;
+	height : 250vh;
+}
+.ourprinciples .princi img{
+	width :35%;
+	height : 70vh;
+	margin-left : 10%;
+	margin-top : 3%;
+	border-radius : 20px;
+	padding : 0px;
+}
+
+.ourprinciples .princi p{
+	position : relative;
+	font-size : 30px;
+	font-family : MV Boli;
+	color : white;
+}
+
+.ourprinciples #prin0 p{
+	float : right;
+    margin-right : 20%;
+    margin-top : 18%;
+}
+.ourprinciples #prin2 p{
+	float : left;
+    margin-left : 20%;
+    margin-top : 18%;
+}
+.ourprinciples #prin3 p{
+	float : right;
+    margin-right : 20%;
+    margin-top : 18%;
+}
+
+
+
